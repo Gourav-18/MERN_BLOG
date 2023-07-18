@@ -1,0 +1,129 @@
+import './App.css';
+
+function App() {
+  return (
+    <main>
+      <header>
+        <a href="" className="logo">My Blog</a>
+        <nav>
+          <a href="">Login</a>
+          <a href="">Register</a>
+        </nav>
+      </header>
+      <div className="post">
+        <div className="images">
+          <img alt="" src="https://techcrunch.com/wp-content/uploads/2021/05/GettyImages-1254738673.jpg?w=1390&crop=1"></img>
+        </div>
+        <div className="texts">
+          <h2>Full house with extra battery backup !!! exciting offers comes this year.
+          </h2>
+          <p className="info">
+            <a className="author">Gourav Kumar</a>
+            <time>2023-07-06 22:05</time>
+          </p>
+          <p className="summary">OpenAI is forming a new team led by Ilya Sutskever, its chief scientist and one of the company’s co-founders, to develop ways to steer and control “superintelligent” AI systems. </p>
+        </div>
+      </div>
+      <div className="post">
+        <div className="images">
+          <img alt="" src="https://techcrunch.com/wp-content/uploads/2021/05/GettyImages-1254738673.jpg?w=1390&crop=1"></img>
+        </div>
+        <div className="texts">
+          <h2>Full house with extra battery backup !!! exciting offers comes this year.
+          </h2>
+          <p className="info">
+            <a className="author">Gourav Kumar</a>
+            <time>2023-07-06 22:05</time>
+          </p>
+          <p className="summary">OpenAI is forming a new team led by Ilya Sutskever, its chief scientist and one of the company’s co-founders, to develop ways to steer and control “superintelligent” AI systems.</p>
+        </div>
+      </div>
+      <div className="post">
+        <div className="images">
+          <img alt="" src="https://techcrunch.com/wp-content/uploads/2021/05/GettyImages-1254738673.jpg?w=1390&crop=1"></img>
+        </div>
+        <div className="texts">
+          <h2>Full house with extra battery backup !!! exciting offers comes this year.
+          </h2>
+          <p className="info">
+            <a className="author">Gourav Kumar</a>
+            <time>2023-07-06 22:05</time>
+          </p>
+          <p className="summary">OpenAI is forming a new team led by Ilya Sutskever, its chief scientist and one of the company’s co-founders, to develop ways to steer and control “superintelligent” AI systems. </p>
+        </div>
+      </div>
+
+    </main>
+  );
+}
+
+export default App;
+
+
+body{
+  color: #222;
+}
+img{
+  max-width: 100%;
+}
+main{
+  padding: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px; 
+  margin-top: 20px ;
+  align-items: center;
+}
+
+header a{
+  text-decoration: none;
+  color: inherit;
+}
+
+header a.logo{
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+header nav{
+  display: flex;
+  gap: 15px;
+}
+
+div .post{
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+div.post div.texts h2{
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+div.post p.info{
+  margin: 6px 0;
+  color: #888;
+  font-size: 0.7rem;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+}
+
+div.post p.info a.author{
+  color: #333;
+}
+
+div.post p.summary{
+  margin: 10px 0;
+  line-height: 1.4rem;
+}
+
+gouravBlog
+MqxogDn1hk4UlKoN
+oKANg2pq4dIsQsHK
